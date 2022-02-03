@@ -5,15 +5,14 @@
 
 $content = array  // an array is a set of related information. Ex: multiple pieces of info about one photo
   (
-
-array (   // the first array inside "content":: child array #1
-		'id'                => "1",
-        'metatitle'         => "Icelandic landscape",
-        'metadescription'   => "Jokulsarlon glacial lagoon",
-        'h1title'           => "Jokulsarlon glacial lagoon",
-        'imagepath'         => "/img/sample.jpg",
-        'caption'           => "Icebergs in the Jokulsarlon glacial lagoon on the south coast of Iceland",
-        'copyright'         => "&copy Eric Girouard, 2014"),  // last line ends with a ),
+    array (   // the first array inside "content":: child array #1
+      'id'                => "1",
+      'metatitle'         => "Leaves and Vines",
+      'metadescription'   => "Leaves in the Summer",
+      'h1title'           => "Leaves in the Summer",
+      'imagepath'         => "/img/lalonde-aaron-01-1.jpg",
+      'caption'           => "Leaves wrapped around white fence outside in the summer",
+      'copyright'         => "&copy Aaron Lalonde, 2021")
 
 );
 ?>  

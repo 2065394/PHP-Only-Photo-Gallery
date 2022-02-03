@@ -22,10 +22,19 @@ COLOR PALETTE WITH CSS VARIABLES
 /* --------------------------------------
   RESPONSIVE IMAGES
 ----------------------------------------- */  
-
 img {
-    max-width: 100%;
-    height: auto;
+  max-width: 100%; /*on any device smaller than 576px, shrink all images to fit */
+  height: auto;
+}
+
+figure {
+  border: 1px solid #444;
+  margin: 1rem;
+  padding: 1rem;
+}
+
+figcaption {
+  margin: 0.75rem 0 0 0;
 }
 
 /* --------------------------------------
